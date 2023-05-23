@@ -1,18 +1,18 @@
 # PROJECT 2 CHALLENGE - CROWDFUNDING ETL
 
-# PROJECT DESCRIPTION
+## PROJECT DESCRIPTION
 
 This code will extract data from the crowdfunding.xlsx & contacts.xlsx files in the Resources folder and tranform the data before loading it into a CSV. With the CSV file and a schema file, we build a database and then populate the tables with the cleaned and transformed data.
 
-# HOW TO RUN THE PROJECT
+## HOW TO RUN THE PROJECT
 
-Python Script:
+### Python Script:
 
 Download the Resources folder and ETL_Mini_Project_Group_2.ipynb file, and open VSCODE or Jupyter Notebook to run the script. 
 
 To run the script you will need to have installed pandas, numpy, datetime & json libraries.
 
-SQL Schema:
+### SQL Schema:
 
 You will need to create a database called crowdfunding_db using postgres (PGAdmin4).
 
@@ -22,7 +22,7 @@ Import the CSV files (contacts.csv, campaign.csv, category.csv & subcategory.csv
 
 Please note the crowdfunding_ERD.png file which will show you how each of the tables connect within the schema.
 
-# CONTRIBUTORS:
+## CONTRIBUTORS:
 Barani Palaniappan
 
 Henry Leighton
